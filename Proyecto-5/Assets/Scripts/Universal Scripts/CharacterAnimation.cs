@@ -34,16 +34,9 @@ public class CharacterAnimation : MonoBehaviour
     {
         anim.SetTrigger(AnimationTags.KICK_2_TRIGGER);
     }
-    public void PlayerHits(int hits)
+    public void PlayerHurt()
     {
-        if(hits == 0)
-        {
-             anim.SetTrigger(AnimationTags.PLAYER_HIT_1_TRIGGER);
-        }
-        if(hits == 1)
-        {
-            anim.SetTrigger(AnimationTags.PLAYER_HIT_2_TRIGGER);
-        }
+        anim.SetTrigger(AnimationTags.PLAYER_HURT_TRIGGER);
     }
     
     //Enemy Animations

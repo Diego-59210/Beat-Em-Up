@@ -32,7 +32,7 @@ public class HealthScript : MonoBehaviour
         health -= damage;
         if(isPlayer)
         {
-            animationScript.PlayerHits(0);
+            animationScript.PlayerHurt();
             healthUI.DisplayHealth(health);
         }
 

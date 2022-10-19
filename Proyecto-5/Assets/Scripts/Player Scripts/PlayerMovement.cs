@@ -11,7 +11,7 @@ public class PlayerMovement : MonoBehaviour
     public float SpeedZ = 1.5f;
 
     private float RotationY = -90f;
-    private float RotationSpeed = 15f;
+    
 
 
     // Start is called before the first frame update

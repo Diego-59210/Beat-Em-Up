@@ -17,14 +17,22 @@ public class AnimationTags
     public const string ATTACK_2_TRIGGER = "Attack2";
     public const string ATTACK_3_TRIGGER = "Attack3";
 
+    public const string LIGHT_ATTACK_1_TRIGGER = "LightAttack1";
+    public const string LIGHT_ATTACK_2_TRIGGER = "LightAttack2";
+    public const string LIGHT_ATTACK_3_TRIGGER = "LightAttack3";
+
+    public const string HEAVY_ATTACK_1_TRIGGER = "HeavyAttack1";
+    public const string HEAVY_ATTACK_2_TRIGGER = "HeavyAttack2";
+    public const string HEAVY_ATTACK_3_TRIGGER = "HeavyAttack3";
+
     public const string IDLE_ANIMATION = "Idle";
 
     public const string KNOCK_DOWN_TRIGGER = "KnockDown";
     public const string STAND_UP_TRIGGER = "StandUp";
     public const string HIT_TRIGGER = "Hit";
     public const string DEATH_TRIGGER = "Death";
-    public const string PLAYER_HIT_1_TRIGGER = "Hit1";
-    public const string PLAYER_HIT_2_TRIGGER = "Hit2";
+    public const string PLAYER_HURT_TRIGGER = "Hurt";
+    
 
 
 }
