@@ -14,6 +14,30 @@ public class CharacterAnimation : MonoBehaviour
     {
         anim.SetBool(AnimationTags.MOVEMENT, move);
     }
+    public void LightAttack_1()
+    {
+        anim.SetTrigger(AnimationTags.LIGHT_ATTACK_1_TRIGGER);
+    }
+    public void LightAttack_2()
+    {
+        anim.SetTrigger(AnimationTags.LIGHT_ATTACK_2_TRIGGER);
+    }
+    public void LightAttack_3()
+    {
+        anim.SetTrigger(AnimationTags.LIGHT_ATTACK_3_TRIGGER);
+    }
+    public void HeavyAttack_1()
+    {
+        anim.SetTrigger(AnimationTags.HEAVY_ATTACK_1_TRIGGER);
+    }
+    public void HeavyAttack_2()
+    {
+        anim.SetTrigger(AnimationTags.HEAVY_ATTACK_2_TRIGGER);
+    }
+    public void HeavyAttack_3()
+    {
+        anim.SetTrigger(AnimationTags.HEAVY_ATTACK_3_TRIGGER);
+    }
     public void Punch_1()
     {
         anim.SetTrigger(AnimationTags.PUNCH_1_TRIGGER);

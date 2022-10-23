@@ -1,14 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-public enum ComboState
+public enum LightComboState
 {
         NONE,
-        PUNCH_1,
-        PUNCH_2,
-        PUNCH_3,
-        KICK_1,
-        KICK_2,
+        LIGHT_ATTACK_1,
+        LIGHT_ATTACK_2,
+        LIGHT_ATTACK_3,
+   
+}
+public enum HeavyComboState
+{
+    NONE,
+    HEAVY_ATTACK_1,
+    HEAVY_ATTACK_2,
+    HEAVY_ATTACK_3,
+
 }
 
 public class PlayerAttack : MonoBehaviour
@@ -17,10 +24,11 @@ public class PlayerAttack : MonoBehaviour
 
     private bool activateTimerToReset;
 
-    private float default_Combo_Timer = 0.4f;
+    private float default_Combo_Timer = 0.6f;
     private float current_Combo_Timer;
 
-    private ComboState current_Combo_State;
+    private LightComboState current_LightCombo_State;
+    private HeavyComboState current_HeavyCombo_State;
 
     // Start is called before the first frame update
     void Awake()
@@ -30,62 +38,67 @@ public class PlayerAttack : MonoBehaviour
     void Start()
     {
         current_Combo_Timer = default_Combo_Timer;
-        current_Combo_State = ComboState.NONE;
+        current_LightCombo_State = LightComboState.NONE;
+        current_HeavyCombo_State = HeavyComboState.NONE;
     }
     // Update is called once per frame
     void Update()
     {
-        ComboAttacks();
+        LightComboAttack();
         ResetComboState();
+        HeavyComboAttack();
     }
-    void ComboAttacks()
+    void LightComboAttack()
     {
-        if (Input.GetKeyDown(KeyCode.Z))
+        if (Input.GetKeyDown(KeyCode.Mouse0))
         {
-            if (current_Combo_State == ComboState.PUNCH_3 || current_Combo_State == ComboState.KICK_1 || current_Combo_State == ComboState.KICK_2)
+            if (current_LightCombo_State == LightComboState.LIGHT_ATTACK_3)
 
                 return;
 
-
-            current_Combo_State++;
+            current_LightCombo_State++;
             activateTimerToReset = true;
             current_Combo_Timer = default_Combo_Timer;
-            if (current_Combo_State == ComboState.PUNCH_1)
+            if (current_LightCombo_State == LightComboState.LIGHT_ATTACK_1)
             {
-                player_Anim.Punch_1();
+                player_Anim.LightAttack_1();
             }
-            if (current_Combo_State == ComboState.PUNCH_2)
+            if (current_LightCombo_State == LightComboState.LIGHT_ATTACK_2)
             {
-                player_Anim.Punch_2();
+                player_Anim.LightAttack_2();
             }
-            if (current_Combo_State == ComboState.PUNCH_3)
+            if (current_LightCombo_State == LightComboState.LIGHT_ATTACK_3)
             {
-                player_Anim.Punch_3();
+                player_Anim.LightAttack_3();
             }
         }
-        if (Input.GetKeyDown(KeyCode.X))
+     
+    }
+    void HeavyComboAttack()
+    {
+        if (Input.GetKeyDown(KeyCode.Mouse1))
         {
-            if (current_Combo_State == ComboState.KICK_2 || current_Combo_State == ComboState.PUNCH_3)
+            if (current_HeavyCombo_State == HeavyComboState.HEAVY_ATTACK_3)
+
                 return;
-            if (current_Combo_State == ComboState.NONE || current_Combo_State == ComboState.PUNCH_1 || current_Combo_State == ComboState.PUNCH_2)
-            {
-                current_Combo_State = ComboState.KICK_1;
-            }
-            else if (current_Combo_State == ComboState.KICK_1)
-            {
-                current_Combo_State++;
-            }
+
+            current_HeavyCombo_State++;
             activateTimerToReset = true;
             current_Combo_Timer = default_Combo_Timer;
-            if (current_Combo_State == ComboState.KICK_1)
+            if (current_HeavyCombo_State == HeavyComboState.HEAVY_ATTACK_1)
             {
-                player_Anim.Kick_1();
+                player_Anim.HeavyAttack_1();
             }
-            if (current_Combo_State == ComboState.KICK_2)
+            if (current_HeavyCombo_State == HeavyComboState.HEAVY_ATTACK_2)
             {
-                player_Anim.Kick_2();
+                player_Anim.HeavyAttack_2();
+            }
+            if (current_HeavyCombo_State == HeavyComboState.HEAVY_ATTACK_3)
+            {
+                player_Anim.HeavyAttack_3();
             }
         }
+
     }
 
     void ResetComboState()
@@ -95,7 +108,8 @@ public class PlayerAttack : MonoBehaviour
             current_Combo_Timer -= Time.deltaTime;
             if (current_Combo_Timer <= 0f)
             {
-                current_Combo_State = ComboState.NONE;
+                current_LightCombo_State = LightComboState.NONE;
+                current_HeavyCombo_State = HeavyComboState.NONE;
                 activateTimerToReset = false;
                 current_Combo_Timer = default_Combo_Timer;
             }
