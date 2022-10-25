@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - HealthUI
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -38,6 +40,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Fondo
+    uniqueID: 2033075505
+    locked: 0
+  - name: Piso
+    uniqueID: 3624835713
+    locked: 0
+  - name: Casas
+    uniqueID: 972859825
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
