@@ -63,9 +63,5 @@ public class PlayerMovement2D : MonoBehaviour
             
         }
     }
-    private void OnCollisionEnter(Collision collision)
-    {
-        if()
-
-    }
+    
 }
