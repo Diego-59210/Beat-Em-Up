@@ -8,8 +8,10 @@ public class PlayerMovement2D : MonoBehaviour
 
     private Rigidbody playerBody;
     public float walkSpeed = 3f;
+    public float jumpHeigth = 5f;
 
     bool facingRight = true;
+    bool canJump = true;
     void Awake()
     {
         playerBody = GetComponent<Rigidbody>();
@@ -20,6 +22,7 @@ public class PlayerMovement2D : MonoBehaviour
     {
         DetectMovement();
         AnimatePlayerWalk();
+        Jump();
     }
     void DetectMovement()
     {
@@ -48,10 +51,21 @@ public class PlayerMovement2D : MonoBehaviour
     }
     void FlipCharacter()
     {
-        Vector3 currentScale = gameObject.transform.localScale;
-        currentScale.x *= -1;
-        gameObject.transform.localScale = currentScale;
-
         facingRight = !facingRight;
+        transform.Rotate(0f, 180f, 0f);
+    }
+    void Jump()
+    {
+        if (Input.GetKeyDown(KeyCode.Space) && canJump)
+        {
+         
+            playerBody.velocity = new Vector3(0f, jumpHeigth, 0f);
+            
+        }
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if()
+
     }
 }
