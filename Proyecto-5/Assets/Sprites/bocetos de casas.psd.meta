@@ -203,7 +203,7 @@ TextureImporter:
       Casa: -285491995
       Casa de piedra: -2016940725
   spritePackingTag: 
-  pSDRemoveMatte: 0
+  pSDRemoveMatte: 1
   pSDShowRemoveMatteOption: 1
   userData: 
   assetBundleName: 
