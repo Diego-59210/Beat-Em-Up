@@ -107,27 +107,27 @@ ScriptedImporter:
     spriteBone:
     - name: BrazoDe
       guid: 770ac5d00bf7a724ebb0475fd852ec43
-      position: {x: 128.05786, y: 211.14717, z: 0}
+      position: {x: 128.05798, y: 211.14694, z: 0}
       rotation: {x: 0, y: 0, z: 0.97771066, w: 0.20995714}
-      length: 377.8193
+      length: 377.81927
       parentId: 2
       color:
         serializedVersion: 2
         rgba: 4278255615
     - name: CodoDe
       guid: e8fe8adfabd0f6c4e84854ceff7e8535
-      position: {x: 377.8193, y: 0.000046335892, z: 0}
-      rotation: {x: 0, y: 0, z: -0.021946885, w: 0.99975914}
-      length: 371.3723
+      position: {x: 377.8192, y: -0.00008696015, z: 0}
+      rotation: {x: 0, y: 0, z: -0.021946887, w: 0.99975914}
+      length: 371.3724
       parentId: 0
       color:
         serializedVersion: 2
         rgba: 4278255360
     - name: Col3
       guid: 7cb0cd6ec24f10e47a0d8f7077b942f4
-      position: {x: 475.0652, y: 648.0132, z: 0}
-      rotation: {x: 0, y: 0, z: 0.7670585, w: 0.6415772}
-      length: 167.60957
+      position: {x: 475.0652, y: 648.0134, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7670585, w: 0.6415771}
+      length: 167.60962
       parentId: -1
       color:
         serializedVersion: 2
@@ -5062,18 +5062,18 @@ ScriptedImporter:
     spriteBone:
     - name: ManoDe
       guid: a5e4dd4ae5cc8d24cbf0cce53ef4c000
-      position: {x: 259.8943, y: 721.28735, z: 0}
-      rotation: {x: 0, y: 0, z: 0.8030521, w: -0.5959089}
-      length: 122.520515
+      position: {x: 259.8943, y: 721.2876, z: 0}
+      rotation: {x: 0, y: 0, z: 0.80305207, w: -0.5959089}
+      length: 122.52056
       parentId: -1
       color:
         serializedVersion: 2
         rgba: 4294967040
     - name: Espada
       guid: 13674b5c95cb22f4a9b0f4854b343715
-      position: {x: 122.520546, y: -0.00023040408, z: 0}
-      rotation: {x: 0, y: -0, z: -0.68748075, w: -0.72620255}
-      length: 1677.885
+      position: {x: 122.520515, y: -0.00026343518, z: 0}
+      rotation: {x: 0, y: -0, z: -0.68748075, w: -0.72620267}
+      length: 1677.8853
       parentId: 0
       color:
         serializedVersion: 2
@@ -8766,7 +8766,7 @@ ScriptedImporter:
       guid: f004d3faf81606a44bf42937a71b7c90
       position: {x: 248.35034, y: 33.192383, z: 0}
       rotation: {x: 0, y: 0, z: 0.6647736, w: 0.7470449}
-      length: 175.94371
+      length: 175.94374
       parentId: -1
       color:
         serializedVersion: 2
@@ -11314,18 +11314,18 @@ ScriptedImporter:
     spriteBone:
     - name: PieDe
       guid: 69d4a4a45280951449deeea16f0c9d49
-      position: {x: 762.10693, y: -0.002251029, z: 0}
+      position: {x: 762.10693, y: -0.002317281, z: 0}
       rotation: {x: 0, y: 0, z: 0.5264152, w: 0.8502276}
-      length: 241.9406
+      length: 241.94057
       parentId: 1
       color:
         serializedVersion: 2
         rgba: 4286578943
     - name: RodillaDe
       guid: eaee881a6ac720e45999cbd5e722c20a
-      position: {x: 671.3044, y: 0.00018527564, z: 0}
+      position: {x: 671.3046, y: 0.00018129218, z: 0}
       rotation: {x: 0, y: 0, z: 0.0025547605, w: 0.9999967}
-      length: 762.1069
+      length: 762.10693
       parentId: 2
       color:
         serializedVersion: 2
@@ -11334,7 +11334,7 @@ ScriptedImporter:
       guid: 3ba9734e0dd1bf9468ea164fadd9df68
       position: {x: 14.594395, y: -132.70338, z: 0}
       rotation: {x: 0, y: 0, z: 0.030638412, w: 0.99953055}
-      length: 671.3042
+      length: 671.3043
       parentId: 3
       color:
         serializedVersion: 2
@@ -11350,9 +11350,9 @@ ScriptedImporter:
         rgba: 4278190335
     - name: BrazoDe
       guid: 770ac5d00bf7a724ebb0475fd852ec43
-      position: {x: 73.607666, y: 2191.733, z: 0}
+      position: {x: 73.607666, y: 2191.7334, z: 0}
       rotation: {x: 0, y: 0, z: 0.7883262, w: -0.61525756}
-      length: 377.81934
+      length: 377.8194
       parentId: -1
       color:
         serializedVersion: 2
@@ -14874,9 +14874,9 @@ ScriptedImporter:
     spriteBone:
     - name: Sombrero
       guid: fce201a01f5821e4b9f2e5f66c391e01
-      position: {x: 259.5664, y: 158.40552, z: 0}
-      rotation: {x: 0, y: 0, z: 0.6370486, w: 0.7708236}
-      length: 145.57738
+      position: {x: 259.56665, y: 158.406, z: 0}
+      rotation: {x: 0, y: 0, z: 0.63704866, w: 0.77082366}
+      length: 145.5774
       parentId: -1
       color:
         serializedVersion: 2
@@ -16773,9 +16773,9 @@ ScriptedImporter:
     spriteBone:
     - name: Cabeza
       guid: f422065f3fb5e224f9f1fadb0a0f50c2
-      position: {x: 164.8291, y: 154.22266, z: 0}
-      rotation: {x: 0, y: 0, z: 0.5862668, w: 0.81011814}
-      length: 162.31645
+      position: {x: 164.82935, y: 154.22314, z: 0}
+      rotation: {x: 0, y: 0, z: 0.58626676, w: 0.8101181}
+      length: 162.31653
       parentId: -1
       color:
         serializedVersion: 2
@@ -18881,9 +18881,9 @@ ScriptedImporter:
     spriteBone:
     - name: Cuello
       guid: abf6218a269c61644b661ed3205fdc90
-      position: {x: 122.438965, y: 14.983643, z: 0}
-      rotation: {x: 0, y: 0, z: 0.67818284, w: 0.7348933}
-      length: 129.65598
+      position: {x: 122.438965, y: 14.984131, z: 0}
+      rotation: {x: 0, y: 0, z: 0.6781828, w: 0.73489326}
+      length: 129.65604
       parentId: -1
       color:
         serializedVersion: 2
@@ -19794,7 +19794,7 @@ ScriptedImporter:
     spriteBone:
     - name: PieIz
       guid: 1c720455be5e0624e90b0f0ccdd7afa7
-      position: {x: 758.4372, y: -0.000027513039, z: 0}
+      position: {x: 758.4373, y: -0.00003390578, z: 0}
       rotation: {x: 0, y: 0, z: 0.5227633, w: 0.85247797}
       length: 269.78244
       parentId: 1
@@ -23887,27 +23887,27 @@ ScriptedImporter:
     spriteBone:
     - name: Col3
       guid: 7cb0cd6ec24f10e47a0d8f7077b942f4
-      position: {x: 167.39868, y: 0.000049118236, z: 0}
-      rotation: {x: 0, y: 0, z: 0.042101674, w: 0.9991134}
-      length: 167.60959
+      position: {x: 167.39868, y: 0.000061142666, z: 0}
+      rotation: {x: 0, y: 0, z: 0.04210169, w: 0.9991133}
+      length: 167.60962
       parentId: 1
       color:
         serializedVersion: 2
         rgba: 4294902015
     - name: Col2
       guid: 124ec25f00a8f2444a4d337c1be06b12
-      position: {x: 165.7586, y: -0.0000070323804, z: 0}
-      rotation: {x: 0, y: 0, z: 0.07955431, w: 0.9968305}
-      length: 167.39903
+      position: {x: 165.7586, y: -0.0000071389804, z: 0}
+      rotation: {x: 0, y: 0, z: 0.07955431, w: 0.9968306}
+      length: 167.39908
       parentId: 2
       color:
         serializedVersion: 2
         rgba: 4278190335
     - name: Col1
       guid: 915ea45d169e660428f1a623f45ab6b7
-      position: {x: 175.94365, y: -0.000043822074, z: 0}
-      rotation: {x: 0, y: 0, z: 0.025297754, w: 0.99968004}
-      length: 165.75848
+      position: {x: 175.9439, y: -0.000015464611, z: 0}
+      rotation: {x: 0, y: 0, z: 0.025297755, w: 0.99968}
+      length: 165.75851
       parentId: 3
       color:
         serializedVersion: 2
@@ -23916,7 +23916,7 @@ ScriptedImporter:
       guid: f004d3faf81606a44bf42937a71b7c90
       position: {x: 335.35034, y: 1083.1923, z: 0}
       rotation: {x: 0, y: 0, z: 0.6647736, w: 0.7470449}
-      length: 175.94371
+      length: 175.94374
       parentId: -1
       color:
         serializedVersion: 2
@@ -23924,8 +23924,8 @@ ScriptedImporter:
     - name: Abrigo_1
       guid: 4a22f23f564cd0a4eaa4f40cd03805f9
       position: {x: -115.59778, y: -93.53562, z: 0}
-      rotation: {x: 0, y: 0, z: -0.9799241, w: 0.19937123}
-      length: 251.8777
+      rotation: {x: 0, y: 0, z: -0.9799241, w: 0.19937128}
+      length: 251.87775
       parentId: 3
       color:
         serializedVersion: 2
@@ -23933,43 +23933,43 @@ ScriptedImporter:
     - name: Abrigo_4
       guid: ebc8d50d4ab58cc4c8cbf534724e19cd
       position: {x: -133.97914, y: 116.676735, z: 0}
-      rotation: {x: 0, y: 0, z: 0.99949706, w: 0.031712912}
-      length: 223.77238
+      rotation: {x: 0, y: 0, z: 0.99949706, w: 0.031712905}
+      length: 223.77242
       parentId: 3
       color:
         serializedVersion: 2
         rgba: 4286578943
     - name: Abrigo_5
       guid: 79e80efc901991f4187b0b95b564147f
-      position: {x: 223.7722, y: -0.00014365603, z: 0}
-      rotation: {x: 0, y: 0, z: 0.081548266, w: 0.9966695}
-      length: 278.70493
+      position: {x: 223.7722, y: -0.0001519782, z: 0}
+      rotation: {x: 0, y: 0, z: 0.08154826, w: 0.9966695}
+      length: 278.7051
       parentId: 5
       color:
         serializedVersion: 2
         rgba: 4278223103
     - name: Abrigo_2
       guid: f6297683006e5d845ac751e2b5d72b96
-      position: {x: 251.87769, y: 0.000010336225, z: 0}
-      rotation: {x: 0, y: 0, z: -0.09983127, w: 0.9950044}
-      length: 271.9514
+      position: {x: 251.8778, y: 0.000036430924, z: 0}
+      rotation: {x: 0, y: 0, z: -0.099831186, w: 0.9950044}
+      length: 271.95154
       parentId: 4
       color:
         serializedVersion: 2
         rgba: 4294934528
     - name: Abrigo_6
       guid: a7a1314bb51f83e43af4d8f645fae6cc
-      position: {x: 278.7052, y: -0.000014687153, z: 0}
-      rotation: {x: 0, y: 0, z: -0.038898755, w: -0.99924314}
-      length: 327.00696
+      position: {x: 278.70532, y: 0.0000025946774, z: 0}
+      rotation: {x: 0, y: 0, z: -0.03889866, w: -0.99924314}
+      length: 327.00705
       parentId: 6
       color:
         serializedVersion: 2
         rgba: 4278255360
     - name: Abrigo_3
       guid: 2e316ef1713bc0440bbb45d8448667d3
-      position: {x: 271.95166, y: 0.000049352508, z: 0}
-      rotation: {x: 0, y: 0, z: -0.022289628, w: 0.9997516}
+      position: {x: 271.95142, y: -0.00010285062, z: 0}
+      rotation: {x: 0, y: 0, z: -0.022289753, w: 0.99975157}
       length: 266.56763
       parentId: 7
       color:
@@ -23977,9 +23977,9 @@ ScriptedImporter:
         rgba: 4294901888
     - name: BrazoDe
       guid: 770ac5d00bf7a724ebb0475fd852ec43
-      position: {x: 128.05852, y: 211.14679, z: 0}
-      rotation: {x: 0, y: 0, z: 0.97771066, w: 0.20995717}
-      length: 377.81927
+      position: {x: 128.05838, y: 211.14684, z: 0}
+      rotation: {x: 0, y: 0, z: 0.9777106, w: 0.20995714}
+      length: 377.8194
       parentId: 0
       color:
         serializedVersion: 2
@@ -27625,25 +27625,25 @@ ScriptedImporter:
       guid: f004d3faf81606a44bf42937a71b7c90
       position: {x: 251.35034, y: 153.19238, z: 0}
       rotation: {x: 0, y: 0, z: 0.6647736, w: 0.7470449}
-      length: 175.94371
+      length: 175.94374
       parentId: -1
       color:
         serializedVersion: 2
         rgba: 4294901760
     - name: Col1
       guid: 915ea45d169e660428f1a623f45ab6b7
-      position: {x: 175.94377, y: -0.0000441499, z: 0}
-      rotation: {x: 0, y: 0, z: 0.025297755, w: 0.99968}
-      length: 165.75848
+      position: {x: 175.94402, y: -0.000015792437, z: 0}
+      rotation: {x: 0, y: 0, z: 0.02529776, w: 0.99968004}
+      length: 165.75851
       parentId: 0
       color:
         serializedVersion: 2
         rgba: 4278255488
     - name: Col2
       guid: 124ec25f00a8f2444a4d337c1be06b12
-      position: {x: 165.75851, y: -0.0000148107865, z: 0}
-      rotation: {x: 0, y: 0, z: 0.07955431, w: 0.9968306}
-      length: 167.39903
+      position: {x: 165.75851, y: -0.000012384189, z: 0}
+      rotation: {x: 0, y: 0, z: 0.07955429, w: 0.9968305}
+      length: 167.39908
       parentId: 1
       color:
         serializedVersion: 2
@@ -29422,9 +29422,9 @@ ScriptedImporter:
         boneIndex3: 0
     - position: {x: 369.29483, y: 388.64227}
       boneWeight:
-        weight0: 0.41548494
+        weight0: 0.41548496
         weight1: 0.33017176
-        weight2: 0.25434327
+        weight2: 0.2543433
         weight3: 0
         boneIndex0: 1
         boneIndex1: 0
@@ -29793,18 +29793,18 @@ ScriptedImporter:
     spriteBone:
     - name: CodoIz
       guid: 69ebfa92df6d31e419a630fdded745b5
-      position: {x: 313.71613, y: -0.00044990506, z: 0}
-      rotation: {x: 0, y: 0, z: 0.045866944, w: 0.9989476}
-      length: 332.9435
+      position: {x: 313.71628, y: -0.0006987779, z: 0}
+      rotation: {x: 0, y: 0, z: 0.0458669, w: 0.99894756}
+      length: 332.94363
       parentId: 1
       color:
         serializedVersion: 2
         rgba: 4278223103
     - name: BrazoIz
       guid: 044d4f33b87b7ab4abe78abf3f6676ed
-      position: {x: 63.050537, y: 659.42505, z: 0}
-      rotation: {x: 0, y: 0, z: 0.66479516, w: -0.7470258}
-      length: 313.71622
+      position: {x: 63.050537, y: 659.4253, z: 0}
+      rotation: {x: 0, y: 0, z: 0.6647951, w: -0.7470258}
+      length: 313.71628
       parentId: -1
       color:
         serializedVersion: 2
@@ -35188,9 +35188,9 @@ ScriptedImporter:
     spriteBone:
     - name: Ballesta
       guid: ad9841687e11ef74db30cc35afc43e6d
-      position: {x: 41.601562, y: 79.18787, z: 0}
-      rotation: {x: 0, y: 0, z: 0.3660695, w: 0.9305876}
-      length: 274.1924
+      position: {x: 41.60132, y: 79.18787, z: 0}
+      rotation: {x: 0, y: 0, z: 0.36606947, w: 0.93058753}
+      length: 274.19247
       parentId: -1
       color:
         serializedVersion: 2
@@ -37178,9 +37178,9 @@ ScriptedImporter:
     spriteBone:
     - name: Ballesta
       guid: ad9841687e11ef74db30cc35afc43e6d
-      position: {x: 41.601562, y: 79.18787, z: 0}
-      rotation: {x: 0, y: 0, z: 0.3660695, w: 0.9305876}
-      length: 274.1924
+      position: {x: 41.60132, y: 79.18787, z: 0}
+      rotation: {x: 0, y: 0, z: 0.36606947, w: 0.93058753}
+      length: 274.19247
       parentId: -1
       color:
         serializedVersion: 2
@@ -39412,9 +39412,9 @@ ScriptedImporter:
     spriteBone:
     - name: ManoIz
       guid: 106f5d364eec01b449d0e5b6bd09a7d3
-      position: {x: 28.265137, y: 151.07129, z: 0}
-      rotation: {x: 0, y: 0, z: 0.38632178, w: -0.9223641}
-      length: 138.7525
+      position: {x: 28.264893, y: 151.07141, z: 0}
+      rotation: {x: 0, y: 0, z: 0.38632226, w: -0.9223639}
+      length: 138.7527
       parentId: -1
       color:
         serializedVersion: 2
@@ -40404,7 +40404,7 @@ ScriptedImporter:
     - name: Espada
       guid: 13674b5c95cb22f4a9b0f4854b343715
       position: {x: 122.520546, y: -0.00024512428, z: 0}
-      rotation: {x: 0, y: 0, z: -0.6874808, w: -0.72620255}
+      rotation: {x: 0, y: 0, z: -0.68748075, w: -0.7262026}
       length: 1677.8849
       parentId: 3
       color:
@@ -40414,14 +40414,14 @@ ScriptedImporter:
       guid: 044d4f33b87b7ab4abe78abf3f6676ed
       position: {x: -7.408576, y: -190.67816, z: 0}
       rotation: {x: 0, y: -0, z: 0.99952984, w: 0.030662099}
-      length: 313.7162
+      length: 313.71616
       parentId: 16
       color:
         serializedVersion: 2
         rgba: 4294902015
     - name: CodoIz
       guid: 69ebfa92df6d31e419a630fdded745b5
-      position: {x: 313.71606, y: -0.0003959473, z: 0}
+      position: {x: 313.71603, y: -0.000638437, z: 0}
       rotation: {x: 0, y: 0, z: 0.045866936, w: 0.99894756}
       length: 332.94348
       parentId: 5
@@ -40430,17 +40430,17 @@ ScriptedImporter:
         rgba: 4278223103
     - name: ManoIz
       guid: 106f5d364eec01b449d0e5b6bd09a7d3
-      position: {x: 332.94345, y: -0.000050810224, z: 0}
-      rotation: {x: 0, y: 0, z: 0.28086576, w: 0.9597471}
-      length: 138.75247
+      position: {x: 332.9435, y: -0.00004554169, z: 0}
+      rotation: {x: 0, y: 0, z: 0.28086525, w: 0.95974725}
+      length: 138.75266
       parentId: 6
       color:
         serializedVersion: 2
         rgba: 4278255488
     - name: Ballesta
       guid: ad9841687e11ef74db30cc35afc43e6d
-      position: {x: 138.7526, y: -0.00018965625, z: 0}
-      rotation: {x: 0, y: 0, z: -0.69715554, w: -0.71691996}
+      position: {x: 138.75279, y: -0.000052748102, z: 0}
+      rotation: {x: 0, y: 0, z: -0.69715595, w: -0.71691954}
       length: 274.19232
       parentId: 7
       color:
@@ -40449,25 +40449,25 @@ ScriptedImporter:
     - name: PiernaDe
       guid: 3ba9734e0dd1bf9468ea164fadd9df68
       position: {x: 14.594379, y: -132.70349, z: 0}
-      rotation: {x: 0, y: 0, z: 0.030638432, w: 0.99953055}
-      length: 671.30426
+      rotation: {x: 0, y: 0, z: 0.03063843, w: 0.99953055}
+      length: 671.3044
       parentId: 28
       color:
         serializedVersion: 2
         rgba: 4294934528
     - name: RodillaDe
       guid: eaee881a6ac720e45999cbd5e722c20a
-      position: {x: 671.3043, y: 0.0003537764, z: 0}
+      position: {x: 671.30444, y: 0.00034728128, z: 0}
       rotation: {x: 0, y: 0, z: 0.0025547426, w: 0.9999967}
-      length: 762.10693
+      length: 762.107
       parentId: 9
       color:
         serializedVersion: 2
         rgba: 4294901888
     - name: PieDe
       guid: 69d4a4a45280951449deeea16f0c9d49
-      position: {x: 762.107, y: -0.0022128518, z: 0}
-      rotation: {x: 0, y: 0, z: 0.5264153, w: 0.85022765}
+      position: {x: 762.107, y: -0.002217786, z: 0}
+      rotation: {x: 0, y: 0, z: 0.5264153, w: 0.8502276}
       length: 241.94058
       parentId: 10
       color:
@@ -40493,7 +40493,7 @@ ScriptedImporter:
         rgba: 4278255360
     - name: PieIz
       guid: 1c720455be5e0624e90b0f0ccdd7afa7
-      position: {x: 758.4374, y: 0.00008891301, z: 0}
+      position: {x: 758.43744, y: 0.000085716645, z: 0}
       rotation: {x: 0, y: 0, z: 0.52276325, w: 0.85247797}
       length: 269.78238
       parentId: 13
@@ -40502,10 +40502,10 @@ ScriptedImporter:
         rgba: 4294967040
     - name: Cadera
       guid: f004d3faf81606a44bf42937a71b7c90
-      position: {x: 2541.3503, y: 1899.1923, z: 0}
-      rotation: {x: 0, y: 0, z: 0.6647736, w: 0.7470449}
+      position: {x: -1653.1431, y: -141.30644, z: 0}
+      rotation: {x: 0, y: 0, z: 0.99830645, w: 0.05817462}
       length: 175.9437
-      parentId: -1
+      parentId: 0
       color:
         serializedVersion: 2
         rgba: 4294901760
@@ -40548,16 +40548,16 @@ ScriptedImporter:
     - name: Abrigo_2
       guid: f6297683006e5d845ac751e2b5d72b96
       position: {x: 251.87772, y: -0.000027289876, z: 0}
-      rotation: {x: 0, y: 0, z: -0.09983128, w: 0.9950044}
-      length: 271.95145
+      rotation: {x: 0, y: 0, z: -0.099831134, w: 0.9950044}
+      length: 271.95154
       parentId: 19
       color:
         serializedVersion: 2
         rgba: 4294934528
     - name: Abrigo_3
       guid: 2e316ef1713bc0440bbb45d8448667d3
-      position: {x: 271.95157, y: 0.00013426095, z: 0}
-      rotation: {x: 0, y: 0, z: -0.022289613, w: 0.9997516}
+      position: {x: 271.95157, y: 0.000020763233, z: 0}
+      rotation: {x: 0, y: 0, z: -0.02228976, w: 0.9997516}
       length: 266.56766
       parentId: 20
       color:
@@ -40576,15 +40576,15 @@ ScriptedImporter:
       guid: 79e80efc901991f4187b0b95b564147f
       position: {x: 223.77232, y: -0.00017424783, z: 0}
       rotation: {x: 0, y: 0, z: 0.08154827, w: 0.9966694}
-      length: 278.70496
+      length: 278.70508
       parentId: 22
       color:
         serializedVersion: 2
         rgba: 4278223103
     - name: Abrigo_6
       guid: a7a1314bb51f83e43af4d8f645fae6cc
-      position: {x: 278.70508, y: 0.000047635775, z: 0}
-      rotation: {x: 0, y: 0, z: -0.038898688, w: -0.9992432}
+      position: {x: 278.7052, y: 0.000049658815, z: 0}
+      rotation: {x: 0, y: 0, z: -0.038898632, w: -0.9992432}
       length: 327.007
       parentId: 23
       color:
@@ -40763,7 +40763,51 @@ ScriptedImporter:
     dimension: {x: 0, y: 0}
     characterGroups: []
     boneReadOnly: 0
-  platformSettings: []
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   mosaicLayers: 1
   characterMode: 1
   documentPivot: {x: 0, y: 0}
@@ -40780,10 +40824,20 @@ ScriptedImporter:
   resliceFromLayer: 0
   mosaicPSDLayers: []
   rigPSDLayers:
+  - name: Sprites
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: aaf9da004ad385b44b3fe7b0e6a3d177
+    layerID: 35
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
   - name: BrazoDe1
     spriteName: BrazoDe1
     isGroup: 0
-    parentIndex: -1
+    parentIndex: 0
     spriteID: 82a924c68c7fb014794f0b96c97375c1
     layerID: 31
     mosaicPosition: {x: 4, y: 2583}
@@ -40793,7 +40847,7 @@ ScriptedImporter:
   - name: Mano-Espada
     spriteName: Mano-Espada
     isGroup: 0
-    parentIndex: -1
+    parentIndex: 0
     spriteID: 9530ea1801746534f8b642b58dbb7f1d
     layerID: 16
     mosaicPosition: {x: 4, y: 4}
@@ -40803,7 +40857,7 @@ ScriptedImporter:
   - name: Flecha
     spriteName: 
     isGroup: 0
-    parentIndex: -1
+    parentIndex: 0
     spriteID: f131915d554c31444ae51fac1afcf894
     layerID: 22
     mosaicPosition: {x: 0, y: 0}
@@ -40813,7 +40867,7 @@ ScriptedImporter:
   - name: cinturon
     spriteName: cinturon
     isGroup: 0
-    parentIndex: -1
+    parentIndex: 0
     spriteID: 32a7225933845024e8879e60526a7b82
     layerID: 14
     mosaicPosition: {x: 4, y: 3922}
@@ -40823,7 +40877,7 @@ ScriptedImporter:
   - name: PiernaDe1
     spriteName: PiernaDe1
     isGroup: 0
-    parentIndex: -1
+    parentIndex: 0
     spriteID: 723e443698563f44eb1ffdb3c72c9faf
     layerID: 8
     mosaicPosition: {x: 698, y: 2362}
@@ -40833,7 +40887,7 @@ ScriptedImporter:
   - name: Sombrero
     spriteName: Sombrero
     isGroup: 0
-    parentIndex: -1
+    parentIndex: 0
     spriteID: 28444b51fa296c14cb5c77114a9784cc
     layerID: 11
     mosaicPosition: {x: 1292, y: 1075}
@@ -40843,7 +40897,7 @@ ScriptedImporter:
   - name: Cabeza
     spriteName: Cabeza
     isGroup: 0
-    parentIndex: -1
+    parentIndex: 0
     spriteID: dc1c0bcace32ff04baf9db7e0b6826c2
     layerID: 10
     mosaicPosition: {x: 1292, y: 1720}
@@ -40853,7 +40907,7 @@ ScriptedImporter:
   - name: Cuello
     spriteName: Cuello
     isGroup: 0
-    parentIndex: -1
+    parentIndex: 0
     spriteID: a7a82ab00ac90504c85430a8e5f820d0
     layerID: 9
     mosaicPosition: {x: 1815, y: 1075}
@@ -40863,7 +40917,7 @@ ScriptedImporter:
   - name: PiernaIz1
     spriteName: PiernaIz1
     isGroup: 0
-    parentIndex: -1
+    parentIndex: 0
     spriteID: 1342eba8b72a5db45966bf5489b1b9ec
     layerID: 13
     mosaicPosition: {x: 698, y: 746}
@@ -40873,7 +40927,7 @@ ScriptedImporter:
   - name: Abrigo
     spriteName: Abrigo
     isGroup: 0
-    parentIndex: -1
+    parentIndex: 0
     spriteID: c61eeee1ffee12945ba50565abc982f8
     layerID: 6
     mosaicPosition: {x: 4, y: 746}
@@ -40883,7 +40937,7 @@ ScriptedImporter:
   - name: Corse
     spriteName: Corse
     isGroup: 0
-    parentIndex: -1
+    parentIndex: 0
     spriteID: d2db58f9bb5cba542bd79e720822adf8
     layerID: 5
     mosaicPosition: {x: 4, y: 3384}
@@ -40893,7 +40947,7 @@ ScriptedImporter:
   - name: BrazoIz1
     spriteName: BrazoIz1
     isGroup: 0
-    parentIndex: -1
+    parentIndex: 0
     spriteID: 1e5127e14343b6044aab3e9eca9c6bd1
     layerID: 32
     mosaicPosition: {x: 370, y: 2583}
@@ -40903,7 +40957,7 @@ ScriptedImporter:
   - name: pistola sin flecha
     spriteName: pistola sin flecha
     isGroup: 0
-    parentIndex: -1
+    parentIndex: 0
     spriteID: 7e394dff244c8be4392220fa3d58c5f1
     layerID: 20
     mosaicPosition: {x: 1292, y: 1391}
@@ -40913,7 +40967,7 @@ ScriptedImporter:
   - name: pistola con flecha
     spriteName: pistola con flecha
     isGroup: 0
-    parentIndex: -1
+    parentIndex: 0
     spriteID: fcc0a3dfe354a9d41a803c623978e353
     layerID: 19
     mosaicPosition: {x: 1292, y: 746}
@@ -40923,7 +40977,7 @@ ScriptedImporter:
   - name: mano-pistola
     spriteName: mano-pistola
     isGroup: 0
-    parentIndex: -1
+    parentIndex: 0
     spriteID: 95d08c4224efea54682e5f7c323d6229
     layerID: 15
     mosaicPosition: {x: 1762, y: 1391}
@@ -40942,7 +40996,7 @@ ScriptedImporter:
     isVisible: 0
   sharedRigPSDLayers: []
   pSDLayerImportSetting: []
-  generateGOHierarchy: 0
+  generateGOHierarchy: 1
   textureAssetName: 
   prefabAssetName: 
   spriteLibAssetName: 
