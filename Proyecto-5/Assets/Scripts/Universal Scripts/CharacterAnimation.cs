@@ -38,26 +38,6 @@ public class CharacterAnimation : MonoBehaviour
     {
         anim.SetTrigger(AnimationTags.HEAVY_ATTACK_3_TRIGGER);
     }
-    public void Punch_1()
-    {
-        anim.SetTrigger(AnimationTags.PUNCH_1_TRIGGER);
-    }
-    public void Punch_2()
-    {
-        anim.SetTrigger(AnimationTags.PUNCH_2_TRIGGER);
-    }
-    public void Punch_3()
-    {
-        anim.SetTrigger(AnimationTags.PUNCH_3_TRIGGER);
-    }
-    public void Kick_1()
-    {
-        anim.SetTrigger(AnimationTags.KICK_1_TRIGGER);
-    }
-    public void Kick_2()
-    {
-        anim.SetTrigger(AnimationTags.KICK_2_TRIGGER);
-    }
     public void PlayerHurt()
     {
         anim.SetTrigger(AnimationTags.PLAYER_HURT_TRIGGER);
@@ -82,14 +62,6 @@ public class CharacterAnimation : MonoBehaviour
     public void PlayIdleAnimation()
     {
         anim.Play(AnimationTags.IDLE_ANIMATION);
-    }
-    public void KnockDown()
-    {
-        anim.SetTrigger(AnimationTags.KNOCK_DOWN_TRIGGER);
-    }
-    public void StandUp()
-    {
-        anim.SetTrigger(AnimationTags.STAND_UP_TRIGGER);
     }
     public void Hit()
     {

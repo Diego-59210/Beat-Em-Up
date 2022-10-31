@@ -24,7 +24,7 @@ public class HealthScript : MonoBehaviour
         }
     }
 
-    public void ApplyDamage(float damage, bool knockDown)
+    public void ApplyDamage(float damage)
     {
         if (characterDied)
             return;
@@ -52,20 +52,7 @@ public class HealthScript : MonoBehaviour
         
         if (!isPlayer)
         {
-            if(knockDown)
-            {
-                if(Random.Range(0,2) > 0)
-                {
-                    animationScript.KnockDown();
-                }
-            }
-            else
-            {
-                if(Random.Range(0,3) > 1)
-                {
-                    animationScript.Hit();
-                }
-            }
+            animationScript.Hit();
         }
         
     }

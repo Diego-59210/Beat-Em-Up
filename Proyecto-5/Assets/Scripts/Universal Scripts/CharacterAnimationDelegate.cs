@@ -89,15 +89,7 @@ public class CharacterAnimationDelegate : MonoBehaviour
     {
         leftLegAttackPoint.tag = Tags.UNTAGGED_TAG;
     }
-    void EnemyStandUp()
-    {
-        StartCoroutine(StandUpAfterTime());
-    }
-    IEnumerator StandUpAfterTime()
-    {
-        yield return new WaitForSeconds(standUpTimer);
-        animationScript.StandUp();
-    }
+
     public void AttackFXSound()
     {
         audioSource.volume = 0.2f;

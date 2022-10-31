@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class AttackUniversal : MonoBehaviour
 {
@@ -9,7 +10,7 @@ public class AttackUniversal : MonoBehaviour
     public float damage = 2f;
 
     public bool isPlayer, isEnemy;
-    public GameObject hitFXPrefab;
+    //public GameObject hitFXPrefab;
     
     void Update()
     {
@@ -22,34 +23,30 @@ public class AttackUniversal : MonoBehaviour
         {
             if(isPlayer)
             {
-                Vector3 hitFXPosition = hit[0].transform.position;
-                hitFXPosition.y += 1.3f;
-                if (hit[0].transform.forward.x > 0)
-                {
-                    hitFXPosition.x += 0.3f;
-                }
-                else if (hit[0].transform.forward.x < 0)
-                {
-                    hitFXPosition.x -= 0.3f;
-                }
-                Instantiate(hitFXPrefab, hitFXPosition, Quaternion.identity);
-                if(gameObject.CompareTag(Tags.LEFT_ARM_TAG) || gameObject.CompareTag(Tags.LEFT_LEG_TAG))
-                {
-                    hit[0].GetComponent<HealthScript>().ApplyDamage(damage, true);
-                }
-                else
-                {
-                    hit[0].GetComponent<HealthScript>().ApplyDamage(damage, false);
-                }
-
+                hit[0].GetComponent<HealthScript>().ApplyDamage(damage);
+                //Vector3 hitFXPosition = hit[0].transform.position;
+                //hitFXPosition.y += 1.3f;
+                //if (hit[0].transform.forward.x > 0)
+                //{
+                // hitFXPosition.x += 0.3f;
+                //}
+                //else if (hit[0].transform.forward.x < 0)
+                //{
+                //hitFXPosition.x -= 0.3f;
+                //}
+                //Instantiate(hitFXPrefab, hitFXPosition, Quaternion.identity);
             }
             if(isEnemy)
             {
                 
-                hit[0].GetComponent<HealthScript>().ApplyDamage(damage, false);
+                hit[0].GetComponent<HealthScript>().ApplyDamage(damage);
                 
             }
             gameObject.SetActive(false);
         }
+    }
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawWireSphere(transform.position, radius);
     }
 }
