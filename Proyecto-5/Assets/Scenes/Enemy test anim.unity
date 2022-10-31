@@ -349,7 +349,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1025661751
 PrefabInstance:
@@ -426,12 +426,12 @@ PrefabInstance:
     - target: {fileID: -7552582706839291426, guid: 821b9c4161dac7844a7e894514a8d6b0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: 821b9c4161dac7844a7e894514a8d6b0,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.09
+      value: -13.3
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: 821b9c4161dac7844a7e894514a8d6b0,
         type: 3}
@@ -451,17 +451,17 @@ PrefabInstance:
     - target: {fileID: -7552582706839291426, guid: 821b9c4161dac7844a7e894514a8d6b0,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: 821b9c4161dac7844a7e894514a8d6b0,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: 821b9c4161dac7844a7e894514a8d6b0,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: 821b9c4161dac7844a7e894514a8d6b0,
         type: 3}
@@ -1429,6 +1429,20 @@ MonoBehaviour:
   m_SolverEditorData:
   - color: {r: 0, g: 1, b: 0, a: 1}
     showGizmo: 1
+--- !u!136 &1025661759
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025661752}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 1.57409
+  m_Height: 8.895545
+  m_Direction: 1
+  m_Center: {x: 0.1468401, y: 0.912271, z: 0}
 --- !u!1 &1643239423
 GameObject:
   m_ObjectHideFlags: 0
@@ -1485,9 +1499,9 @@ MonoBehaviour:
     - {fileID: 1025661754}
     - {fileID: 1025661755}
     m_DefaultLocalRotations:
-    - {x: 0, y: 0, z: 0, w: 1}
+    - {x: -0, y: -0, z: -0, w: 1}
     - {x: 0, y: 0, z: 0.7038756, w: 0.7103233}
-    - {x: 0, y: -0, z: 0.9949202, w: 0.10066722}
+    - {x: 0, y: 0, z: 0.9994207, w: 0.034033023}
     m_StoredLocalRotations:
     - {x: 0, y: 0, z: 0, w: 0}
     - {x: 0, y: 0, z: 0, w: 0}
