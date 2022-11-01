@@ -10,7 +10,7 @@ public class PlayerMovement2D : MonoBehaviour
     public float walkSpeed = 3f;
 
     bool facingRight = true;
-  
+
     void Awake()
     {
         playerBody = GetComponent<Rigidbody>();
@@ -21,6 +21,8 @@ public class PlayerMovement2D : MonoBehaviour
     {
         DetectMovement();
         AnimatePlayerWalk();
+        Dashing();
+        
     }
     void DetectMovement()
     {
@@ -51,6 +53,14 @@ public class PlayerMovement2D : MonoBehaviour
     {
         facingRight = !facingRight;
         transform.Rotate(0f, 180f, 0f);
+    }
+    void Dashing()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+
+            playerBody.AddForce(100f,0f,0f, ForceMode.Impulse);
+        }
     }
   
     
