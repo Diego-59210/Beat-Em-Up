@@ -17,6 +17,8 @@ public class AnimationTags
     public const string ATTACK_2_TRIGGER = "Attack2";
     public const string ATTACK_3_TRIGGER = "Attack3";
 
+    public const string SHOOT_TRIGGER = "Shoot";
+
     public const string LIGHT_ATTACK_1_TRIGGER = "LightAttack1";
     public const string LIGHT_ATTACK_2_TRIGGER = "LightAttack2";
     public const string LIGHT_ATTACK_3_TRIGGER = "LightAttack3";

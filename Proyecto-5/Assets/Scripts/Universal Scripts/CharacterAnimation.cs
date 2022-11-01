@@ -38,6 +38,10 @@ public class CharacterAnimation : MonoBehaviour
     {
         anim.SetTrigger(AnimationTags.HEAVY_ATTACK_3_TRIGGER);
     }
+    public void Shooting()
+    {
+        anim.SetTrigger(AnimationTags.SHOOT_TRIGGER);
+    }
     public void PlayerHurt()
     {
         anim.SetTrigger(AnimationTags.PLAYER_HURT_TRIGGER);

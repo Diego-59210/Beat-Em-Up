@@ -50,7 +50,7 @@ public class PlayerAttack : MonoBehaviour
     }
     void LightComboAttack()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        if (Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.Joystick1Button0))
         {
             if (current_LightCombo_State == LightComboState.LIGHT_ATTACK_3)
 
@@ -76,7 +76,7 @@ public class PlayerAttack : MonoBehaviour
     }
     void HeavyComboAttack()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse1))
+        if (Input.GetKeyDown(KeyCode.X))
         {
             if (current_HeavyCombo_State == HeavyComboState.HEAVY_ATTACK_3)
 

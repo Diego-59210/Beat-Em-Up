@@ -9,16 +9,36 @@ public class Crossbow : MonoBehaviour
 
     public GameObject arrowPrefab;
 
-    // Update is called once per frame
+    private CharacterAnimation anim;
+
+    private bool isShooting;
+
+    private void Awake()
+    {
+        anim = GetComponent<CharacterAnimation>();
+    }
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.E))
         {
-            Shoot();
+            anim.Shooting();
         }
     }
-    void Shoot()
+    void ShootArrow()
     {
-        Instantiate(arrowPrefab, shootingPoint.position, shootingPoint.rotation);
+        if (isShooting)
+        {
+          Instantiate(arrowPrefab, shootingPoint.position, shootingPoint.rotation);
+        }  
+    }
+    void ShootArrowOn()
+    {
+        isShooting = true;
+        
+    }
+    void ShootArrowOff()
+    {
+        isShooting = false;
+
     }
 }
