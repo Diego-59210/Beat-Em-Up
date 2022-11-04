@@ -243,9 +243,9 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 0.16666667
-        value: {x: 0, y: 0, z: -169.042}
-        inSlope: {x: 0, y: 0, z: -162.75995}
-        outSlope: {x: 0, y: 0, z: -162.75995}
+        value: {x: 0, y: 0, z: -194.26}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -253,8 +253,8 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.25
         value: {x: 0, y: 0, z: -186.234}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: 128.41603}
+        outSlope: {x: 0, y: 0, z: 128.41603}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -3897,9 +3897,9 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.16666667
-        value: -169.042
-        inSlope: -162.75995
-        outSlope: -162.75995
+        value: -194.26
+        inSlope: 0
+        outSlope: 0
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
@@ -3907,8 +3907,8 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.25
         value: -186.234
-        inSlope: 0
-        outSlope: 0
+        inSlope: 128.41603
+        outSlope: 128.41603
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
@@ -7717,7 +7717,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Root/Cadera/Col-1/Col-2/Col-3/BrazoDe_1
+    path: Root/Cadera/Col-1/Col-2/Col-3/Cuello_1/Cabeza_1/Mandibula_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7727,7 +7727,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Root/Cadera/Col-1/Col-2/Col-3/BrazoDe_1
+    path: Root/Cadera/Col-1/Col-2/Col-3/Cuello_1/Cabeza_1/Mandibula_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7737,7 +7737,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Root/Cadera/Col-1/Col-2/Col-3/BrazoDe_1
+    path: Root/Cadera/Col-1/Col-2/Col-3/Cuello_1/Cabeza_1/Mandibula_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7807,7 +7807,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Root/Cadera/Col-1/Col-2/Col-3/Cuello_1/Cabeza_1/Mandibula_1
+    path: Root/Cadera/Col-1/Col-2/Col-3/BrazoDe_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7817,7 +7817,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Root/Cadera/Col-1/Col-2/Col-3/Cuello_1/Cabeza_1/Mandibula_1
+    path: Root/Cadera/Col-1/Col-2/Col-3/BrazoDe_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7827,7 +7827,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Root/Cadera/Col-1/Col-2/Col-3/Cuello_1/Cabeza_1/Mandibula_1
+    path: Root/Cadera/Col-1/Col-2/Col-3/BrazoDe_1
     classID: 4
     script: {fileID: 0}
   m_HasGenericRootTransform: 0
