@@ -6,6 +6,7 @@ TagManager:
   tags:
   - HealthUI
   - Enemy
+  - Camera collider
   layers:
   - Default
   - TransparentFX
