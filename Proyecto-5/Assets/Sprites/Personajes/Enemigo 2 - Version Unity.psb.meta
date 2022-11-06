@@ -43610,6 +43610,36 @@ ScriptedImporter:
     flatten: 0
     isImported: 0
     isVisible: 1
+  - name: BrazoDe
+    spriteName: BrazoDe
+    isGroup: 0
+    parentIndex: 0
+    spriteID: de9123f84dc05b043b1887c8288ab22a
+    layerID: 187
+    mosaicPosition: {x: 4, y: 1362}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: ManoDe
+    spriteName: ManoDe
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 7ecbdcfbf9c84aa41b27f42258a78432
+    layerID: 191
+    mosaicPosition: {x: 4, y: 1854}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: AntebrazoDe
+    spriteName: AntebrazoDe
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 98436c60acf22674b883c07a6b5034d3
+    layerID: 189
+    mosaicPosition: {x: 221, y: 1571}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Cabeza
     spriteName: Cabeza
     isGroup: 0
@@ -43637,36 +43667,6 @@ ScriptedImporter:
     spriteID: d435dafbec2f314409103697463f163d
     layerID: 201
     mosaicPosition: {x: 300, y: 974}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: ManoDe
-    spriteName: ManoDe
-    isGroup: 0
-    parentIndex: 0
-    spriteID: 7ecbdcfbf9c84aa41b27f42258a78432
-    layerID: 191
-    mosaicPosition: {x: 4, y: 1854}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: AntebrazoDe
-    spriteName: AntebrazoDe
-    isGroup: 0
-    parentIndex: 0
-    spriteID: 98436c60acf22674b883c07a6b5034d3
-    layerID: 189
-    mosaicPosition: {x: 221, y: 1571}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: BrazoDe
-    spriteName: BrazoDe
-    isGroup: 0
-    parentIndex: 0
-    spriteID: de9123f84dc05b043b1887c8288ab22a
-    layerID: 187
-    mosaicPosition: {x: 4, y: 1362}
     flatten: 0
     isImported: 1
     isVisible: 1
