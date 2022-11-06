@@ -57643,6 +57643,7 @@ GameObject:
   - component: {fileID: 1164631517}
   - component: {fileID: 1164631516}
   - component: {fileID: 1164631520}
+  - component: {fileID: 1164631521}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -57798,6 +57799,18 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1164631521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164631514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa8c717897b826549ad4a4d3af052f14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1167859381
 GameObject:
   m_ObjectHideFlags: 0
@@ -70670,6 +70683,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1483761248}
   - component: {fileID: 1483761247}
+  - component: {fileID: 1483761249}
   m_Layer: 0
   m_Name: CM vcam1
   m_TagString: Untagged
@@ -70731,6 +70745,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 15, y: 180, z: 0.006}
+--- !u!95 &1483761249
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483761246}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 58ff06c7aadabf3479169bf3f9c330c7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1484130322
 GameObject:
   m_ObjectHideFlags: 0
