@@ -19,7 +19,7 @@ public class Crossbow : MonoBehaviour
     }
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.C) || Input.GetKeyDown(KeyCode.Joystick1Button2))
+        if(Input.GetKeyDown(KeyCode.E))
         {
             anim.Shooting();
         }

@@ -11,24 +11,19 @@ public class CharacterAnimationDelegate2D : MonoBehaviour
     private AudioSource audioSource;
 
     [SerializeField]
-    private AudioClip attack1Sound, attack2Sound, walkSound, playerHit, deadSound, shootSound;
+    private AudioClip whooshSound, fallSound, deadSound;
 
 
-    private PlayerMovement2D MovementScript;
     private EnemyMovement enemyMovementScript;
     private CameraShake cameraShake;
 
     void Awake()
     {
         animationScript = GetComponent<CharacterAnimation>();
-        audioSource = GetComponent<AudioSource>();
+        //audioSource = GetComponent<AudioSource>();
         if (gameObject.CompareTag(Tags.ENEMY_TAG))
         {
             enemyMovementScript = GetComponentInParent<EnemyMovement>();
-        }
-        if (gameObject.CompareTag(Tags.PLAYER_TAG))
-        {
-            MovementScript = GetComponentInParent<PlayerMovement2D>();
         }
         cameraShake = GameObject.FindWithTag(Tags.MAIN_CAMERA_TAG).GetComponent<CameraShake>();
     }
@@ -44,40 +39,10 @@ public class CharacterAnimationDelegate2D : MonoBehaviour
             swordAttackPoint.SetActive(false);
         }
     }
-    public void Attack1FXSound()
-    {
-        audioSource.volume = 0.8f;
-        audioSource.clip = attack1Sound;
-        audioSource.Play();
-    }
-    public void Attack2FXSound()
-    {
-        audioSource.volume = 0.8f;
-        audioSource.clip = attack2Sound;
-        audioSource.Play();
-    }
-    public void WalkingSoundOn()
-    {
-        audioSource.volume = 0.5f;
-        audioSource.clip = walkSound;
-        audioSource.Play();
-    }
-    public void WalkingSoundOff()
-    {
-        audioSource.volume = 0.5f;
-        audioSource.clip = walkSound;
-        audioSource.Stop();
-    }
-    public void ShootSound()
-    {
-        audioSource.volume = 0.8f;
-        audioSource.clip = shootSound;
-        audioSource.Play();
-    }
-    public void PlayerHitSound()
+    public void AttackFXSound()
     {
         audioSource.volume = 0.2f;
-        audioSource.clip = playerHit;
+        audioSource.clip = whooshSound;
         audioSource.Play();
     }
     void CharacterDied()
@@ -95,14 +60,6 @@ public class CharacterAnimationDelegate2D : MonoBehaviour
     {
         enemyMovementScript.enabled = true;
         transform.parent.gameObject.layer = 7;
-    }
-    void DisablePlayerMovement()
-    {
-        MovementScript.enabled = false;
-    }
-    void EnablePlayerMovement()
-    {
-        MovementScript.enabled = true;
     }
     void ShakeCameraOnFall()
     {

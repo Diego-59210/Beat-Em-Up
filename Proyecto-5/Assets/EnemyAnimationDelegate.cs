@@ -11,7 +11,7 @@ public class EnemyAnimationDelegate : MonoBehaviour
     private AudioSource audioSource;
 
     [SerializeField]
-    private AudioClip attackSound, hitSound, deadSound;
+    private AudioClip attackSound, fallSound, deadSound;
 
 
     private EnemyMovement enemyMovementScript;
@@ -20,7 +20,7 @@ public class EnemyAnimationDelegate : MonoBehaviour
     void Awake()
     {
         animationScript = GetComponent<CharacterAnimation>();
-        audioSource = GetComponent<AudioSource>();
+        //audioSource = GetComponent<AudioSource>();
         if (gameObject.CompareTag(Tags.ENEMY_TAG))
         {
             enemyMovementScript = GetComponentInParent<EnemyMovement>();
@@ -61,16 +61,10 @@ public class EnemyAnimationDelegate : MonoBehaviour
             enemyAttackPoint3.SetActive(false);
         }
     }
-    public void EnemyAttackSound()
+    public void AttackFXSound()
     {
         audioSource.volume = 0.2f;
         audioSource.clip = attackSound;
-        audioSource.Play();
-    }
-    public void EnemyHitSound()
-    {
-        audioSource.volume = 0.2f;
-        audioSource.clip = hitSound;
         audioSource.Play();
     }
     void CharacterDied()
@@ -79,16 +73,15 @@ public class EnemyAnimationDelegate : MonoBehaviour
         audioSource.clip = deadSound;
         audioSource.Play();
     }
-
     void DisableMovement()
     {
         enemyMovementScript.enabled = false;
-        //transform.parent.gameObject.layer = 0;
+        transform.parent.gameObject.layer = 0;
     }
     void EnableMovement()
     {
         enemyMovementScript.enabled = true;
-        //transform.parent.gameObject.layer = 7;
+        transform.parent.gameObject.layer = 7;
     }
     void ShakeCameraOnFall()
     {

@@ -28,14 +28,13 @@ public class AttackUniversal : MonoBehaviour
                 //hitFXPosition.y += 1.3f;
                 //if (hit[0].transform.forward.x > 0)
                 //{
-                //hitFXPosition.x += 0.3f;
+                // hitFXPosition.x += 0.3f;
                 //}
                 //else if (hit[0].transform.forward.x < 0)
                 //{
                 //hitFXPosition.x -= 0.3f;
                 //}
                 //Instantiate(hitFXPrefab, hitFXPosition, Quaternion.identity);
-                
             }
             if(isEnemy)
             {

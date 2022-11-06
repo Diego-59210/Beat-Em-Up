@@ -115,7 +115,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 12
-  damage: 15
+  damage: 5
   Rigidbody: {fileID: 1435221116401375729}
   radius: 0.3
   collisionLayer:
