@@ -1,20 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-public enum LightComboState
+public enum ComboState
 {
         NONE,
         LIGHT_ATTACK_1,
         LIGHT_ATTACK_2,
         LIGHT_ATTACK_3,
-   
-}
-public enum HeavyComboState
-{
-    NONE,
-    HEAVY_ATTACK_1,
-    HEAVY_ATTACK_2,
-    HEAVY_ATTACK_3,
+        HEAVY_ATTACK_1,
+        HEAVY_ATTACK_2,
 
 }
 
@@ -24,11 +18,10 @@ public class PlayerAttack : MonoBehaviour
 
     private bool activateTimerToReset;
 
-    private float default_Combo_Timer = 0.5f;
+    private float default_Combo_Timer = 1f;
     private float current_Combo_Timer;
 
-    private LightComboState current_LightCombo_State;
-    private HeavyComboState current_HeavyCombo_State;
+    private ComboState current_Combo_State;
 
     // Start is called before the first frame update
     void Awake()
@@ -38,67 +31,63 @@ public class PlayerAttack : MonoBehaviour
     void Start()
     {
         current_Combo_Timer = default_Combo_Timer;
-        current_LightCombo_State = LightComboState.NONE;
-        current_HeavyCombo_State = HeavyComboState.NONE;
+        current_Combo_State = ComboState.NONE;
     }
     // Update is called once per frame
     void Update()
     {
-        LightComboAttack();
+        ComboAttack();
         ResetComboState();
         
     }
-    void LightComboAttack()
+    void ComboAttack()
     {
         if (Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.Joystick1Button0))
         {
-            if (current_LightCombo_State == LightComboState.LIGHT_ATTACK_3)
+            if (current_Combo_State == ComboState.LIGHT_ATTACK_3 || current_Combo_State == ComboState.HEAVY_ATTACK_1 || current_Combo_State == ComboState.HEAVY_ATTACK_2)
 
                 return;
 
-            current_LightCombo_State++;
+            current_Combo_State++;
             activateTimerToReset = true;
             current_Combo_Timer = default_Combo_Timer;
-            if (current_LightCombo_State == LightComboState.LIGHT_ATTACK_1)
+            if (current_Combo_State == ComboState.LIGHT_ATTACK_1)
             {
                 player_Anim.LightAttack_1();
             }
-            if (current_LightCombo_State == LightComboState.LIGHT_ATTACK_2)
+            if (current_Combo_State == ComboState.LIGHT_ATTACK_2)
             {
                 player_Anim.LightAttack_2();
             }
-            if (current_LightCombo_State == LightComboState.LIGHT_ATTACK_3)
+            if (current_Combo_State == ComboState.LIGHT_ATTACK_3)
             {
                 player_Anim.LightAttack_3();
             }
         }
-     
-    }
-    void HeavyComboAttack()
-    {
-        if (Input.GetKeyDown(KeyCode.X))
+        if(Input.GetKeyDown(KeyCode.X) || Input.GetKeyDown(KeyCode.Joystick1Button3))
         {
-            if (current_HeavyCombo_State == HeavyComboState.HEAVY_ATTACK_3)
-
+            if (current_Combo_State == ComboState.HEAVY_ATTACK_2 || current_Combo_State == ComboState.LIGHT_ATTACK_3)
                 return;
-
-            current_HeavyCombo_State++;
+            if(current_Combo_State == ComboState.NONE || current_Combo_State == ComboState.LIGHT_ATTACK_1 || current_Combo_State == ComboState.LIGHT_ATTACK_2)
+            {
+                current_Combo_State = ComboState.HEAVY_ATTACK_1;
+            }
+            else if(current_Combo_State == ComboState.HEAVY_ATTACK_1)
+            {
+                current_Combo_State++;
+            }
             activateTimerToReset = true;
             current_Combo_Timer = default_Combo_Timer;
-            if (current_HeavyCombo_State == HeavyComboState.HEAVY_ATTACK_1)
+            if (current_Combo_State == ComboState.HEAVY_ATTACK_1)
             {
                 player_Anim.HeavyAttack_1();
             }
-            if (current_HeavyCombo_State == HeavyComboState.HEAVY_ATTACK_2)
+            if (current_Combo_State == ComboState.HEAVY_ATTACK_2)
             {
                 player_Anim.HeavyAttack_2();
             }
-            if (current_HeavyCombo_State == HeavyComboState.HEAVY_ATTACK_3)
-            {
-                player_Anim.HeavyAttack_3();
-            }
         }
-
+     
     }
 
     void ResetComboState()
@@ -108,8 +97,7 @@ public class PlayerAttack : MonoBehaviour
             current_Combo_Timer -= Time.deltaTime;
             if (current_Combo_Timer <= 0f)
             {
-                current_LightCombo_State = LightComboState.NONE;
-                current_HeavyCombo_State = HeavyComboState.NONE;
+                current_Combo_State = ComboState.NONE;
                 activateTimerToReset = false;
                 current_Combo_Timer = default_Combo_Timer;
             }
