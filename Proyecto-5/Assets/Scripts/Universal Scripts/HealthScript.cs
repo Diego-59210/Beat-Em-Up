@@ -22,6 +22,10 @@ public class HealthScript : MonoBehaviour
             healthUI = GetComponent<HealthUI>();
 
         }
+        if(!isPlayer)
+        {
+            enemyMovement = GetComponent<EnemyMovement>();
+        }
     }
 
     public void ApplyDamage(float damage)
@@ -40,7 +44,11 @@ public class HealthScript : MonoBehaviour
         {
             animationScript.Death();
             characterDied = true;
-
+            if(!isPlayer)
+            {
+                enemyMovement.enabled = false;
+                transform.gameObject.layer = 0;
+            }
 
             if(isPlayer)
             {
