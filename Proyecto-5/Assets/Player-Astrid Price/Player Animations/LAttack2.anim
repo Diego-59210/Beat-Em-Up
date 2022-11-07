@@ -10948,15 +10948,15 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.2
-    functionName: Attack2FXSound
+  - time: 0.18333334
+    functionName: SwordAttackON
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.21666667
-    functionName: SwordAttackON
+  - time: 0.2
+    functionName: Attack2FXSound
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
