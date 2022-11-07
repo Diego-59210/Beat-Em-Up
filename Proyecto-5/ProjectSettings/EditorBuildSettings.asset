@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Lv1 con Player.unity
     guid: 3308745702b7f684ab36191d4900b99b
+  - enabled: 1
+    path: Assets/Scenes/Lv2 con Player.unity
+    guid: 5fb10610cd4dd8d42afd803383b109df
+  - enabled: 1
+    path: Assets/Scenes/Lv3 Prototipo.unity
+    guid: a785194516a63ac448547897d806ff4b
   m_configObjects: {}

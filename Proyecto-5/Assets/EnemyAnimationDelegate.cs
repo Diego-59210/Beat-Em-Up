@@ -72,7 +72,7 @@ public class EnemyAnimationDelegate : MonoBehaviour
     }
     public void EnemyHitSound()
     {
-        audioSource.volume = 0.7f;
+        audioSource.volume = 0.2f;
         audioSource.clip = hitSound;
         audioSource.Play();
     }
