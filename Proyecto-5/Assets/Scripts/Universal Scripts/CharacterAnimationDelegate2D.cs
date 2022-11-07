@@ -46,19 +46,19 @@ public class CharacterAnimationDelegate2D : MonoBehaviour
     }
     public void Attack1FXSound()
     {
-        audioSource.volume = 0.8f;
+        audioSource.volume = 0.2f;
         audioSource.clip = attack1Sound;
         audioSource.Play();
     }
     public void Attack2FXSound()
     {
-        audioSource.volume = 0.8f;
+        audioSource.volume = 0.2f;
         audioSource.clip = attack2Sound;
         audioSource.Play();
     }
     public void WalkingSoundOn()
     {
-        audioSource.volume = 0.5f;
+        audioSource.volume = 0.3f;
         audioSource.clip = walkSound;
         audioSource.Play();
     }
@@ -70,19 +70,19 @@ public class CharacterAnimationDelegate2D : MonoBehaviour
     }
     public void ShootSound()
     {
-        audioSource.volume = 0.8f;
+        audioSource.volume = 0.3f;
         audioSource.clip = shootSound;
         audioSource.Play();
     }
     public void PlayerHitSound()
     {
-        audioSource.volume = 0.2f;
+        audioSource.volume = 0.5f;
         audioSource.clip = playerHit;
         audioSource.Play();
     }
     void CharacterDied()
     {
-        audioSource.volume = 1f;
+        audioSource.volume = 0.5f;
         audioSource.clip = deadSound;
         audioSource.Play();
     }

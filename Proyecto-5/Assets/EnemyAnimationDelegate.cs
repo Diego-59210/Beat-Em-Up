@@ -69,13 +69,13 @@ public class EnemyAnimationDelegate : MonoBehaviour
     }
     public void EnemyHitSound()
     {
-        audioSource.volume = 0.2f;
+        audioSource.volume = 0.7f;
         audioSource.clip = hitSound;
         audioSource.Play();
     }
     void CharacterDied()
     {
-        audioSource.volume = 1f;
+        audioSource.volume = 0.3f;
         audioSource.clip = deadSound;
         audioSource.Play();
     }
