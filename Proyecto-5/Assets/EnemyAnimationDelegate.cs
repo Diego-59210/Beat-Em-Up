@@ -16,7 +16,7 @@ public class EnemyAnimationDelegate : MonoBehaviour
 
     private EnemyMovement enemyMovementScript;
     private CameraShake cameraShake;
-    private CapsuleCollider collider;
+
 
     void Awake()
     {
