@@ -12,7 +12,7 @@ public class CamaraShakeScript : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Z))
+        if (Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.Joystick1Button0))
             animacion.SetTrigger("golpe");
     }
 }
