@@ -825,7 +825,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  attackDistance: 0.4
+  attackDistance: 1.3
   chasePlayerAfterAttack: 0.5
 --- !u!114 &2150740922978016779
 MonoBehaviour:

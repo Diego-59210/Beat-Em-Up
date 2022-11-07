@@ -81242,6 +81242,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boss Prefab
       objectReference: {fileID: 0}
+    - target: {fileID: 8608580961392438376, guid: d7a41ff3a30cb0a46af6434d7781fd76,
+        type: 3}
+      propertyPath: attackDistance
+      value: 1.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a41ff3a30cb0a46af6434d7781fd76, type: 3}
 --- !u!1 &1250188055 stripped
