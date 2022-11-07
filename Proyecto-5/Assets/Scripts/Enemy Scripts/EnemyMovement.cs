@@ -51,8 +51,20 @@ public class EnemyMovement : MonoBehaviour
 
         if(Vector3.Distance(transform.position, playerTarget.position) > attackDistance)
         {
-            transform.LookAt(playerTarget);
-            enemyBody.velocity = transform.forward * speed;
+
+            Vector3 dis = playerTarget.transform.position - transform.position;
+            bool lookR = playerTarget.transform.position.x - transform.position.x < 0;
+
+            if (lookR)
+            {
+                transform.localScale = new Vector3(Mathf.Abs( transform.localScale.x)*-1, transform.localScale.y, transform.localScale.z);
+            }
+            else
+            {
+                transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+            }
+            // transform.LookAt(playerTarget);
+            enemyBody.velocity = dis.normalized * speed;
 
             if(enemyBody.velocity.sqrMagnitude != 0)
             {

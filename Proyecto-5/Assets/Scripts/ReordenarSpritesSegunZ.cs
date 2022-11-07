@@ -1,29 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 //[ExecuteInEditMode]
 public class ReordenarSpritesSegunZ : MonoBehaviour
 {
 
-    SpriteRenderer[] sr;
+    SortingGroup sg;
     int[] ordenOriginal;
     private void Start()
     {
-        sr = GetComponentsInChildren<SpriteRenderer>();
-        ordenOriginal = new int[sr.Length];
-        for (int i = 0; i < sr.Length; i++)
-        {
-            ordenOriginal[i] = sr[i].sortingOrder;
-        }
+        sg = GetComponent<SortingGroup>();
     }
 
 
     private void Update()
     {
-        for (int i = 0; i < sr.Length; i++)
-        {
-            sr[i].sortingOrder = (int) transform.position.z * ordenOriginal[i];
-        }
+        sg.sortingOrder = (int)(transform.position.z * 1000);
     }
 }
