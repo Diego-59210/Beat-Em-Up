@@ -10631,14 +10631,14 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 0.4
-    functionName: EnemyAttack3ON
+    functionName: EnemyAttack1ON
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
   - time: 0.8666667
-    functionName: EnemyAttack3OFF
+    functionName: EnemyAttack1OFF
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
