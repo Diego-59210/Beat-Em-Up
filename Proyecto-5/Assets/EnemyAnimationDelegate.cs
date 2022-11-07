@@ -16,6 +16,7 @@ public class EnemyAnimationDelegate : MonoBehaviour
 
     private EnemyMovement enemyMovementScript;
     private CameraShake cameraShake;
+    private CapsuleCollider collider;
 
     void Awake()
     {
@@ -24,6 +25,8 @@ public class EnemyAnimationDelegate : MonoBehaviour
         if (gameObject.CompareTag(Tags.ENEMY_TAG))
         {
             enemyMovementScript = GetComponentInParent<EnemyMovement>();
+            collider = GetComponentInParent<CapsuleCollider>();
+
         }
         cameraShake = GameObject.FindWithTag(Tags.MAIN_CAMERA_TAG).GetComponent<CameraShake>();
     }
