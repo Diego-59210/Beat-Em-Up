@@ -38908,10 +38908,45 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 611806594546130032, guid: 0558073bc9c75944c94da4f820336587,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.11368898
+      objectReference: {fileID: 0}
+    - target: {fileID: 1002896601206248038, guid: 0558073bc9c75944c94da4f820336587,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.94219863
+      objectReference: {fileID: 0}
+    - target: {fileID: 1002896601206248038, guid: 0558073bc9c75944c94da4f820336587,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.33505479
+      objectReference: {fileID: 0}
+    - target: {fileID: 1055649163883301189, guid: 0558073bc9c75944c94da4f820336587,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.96479875
+      objectReference: {fileID: 0}
+    - target: {fileID: 1055649163883301189, guid: 0558073bc9c75944c94da4f820336587,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.26298955
+      objectReference: {fileID: 0}
     - target: {fileID: 2631703959239071997, guid: 0558073bc9c75944c94da4f820336587,
         type: 3}
       propertyPath: m_Name
       value: Player2D-Astrid
+      objectReference: {fileID: 0}
+    - target: {fileID: 3503427274617028558, guid: 0558073bc9c75944c94da4f820336587,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8158213
+      objectReference: {fileID: 0}
+    - target: {fileID: 3503427274617028558, guid: 0558073bc9c75944c94da4f820336587,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.57830405
       objectReference: {fileID: 0}
     - target: {fileID: 4778854343146210930, guid: 0558073bc9c75944c94da4f820336587,
         type: 3}
@@ -38967,6 +39002,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6933336442047870084, guid: 0558073bc9c75944c94da4f820336587,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.980538
+      objectReference: {fileID: 0}
+    - target: {fileID: 6933336442047870084, guid: 0558073bc9c75944c94da4f820336587,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.1963292
+      objectReference: {fileID: 0}
+    - target: {fileID: 8651324186753362923, guid: 0558073bc9c75944c94da4f820336587,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.71381354
+      objectReference: {fileID: 0}
+    - target: {fileID: 8651324186753362923, guid: 0558073bc9c75944c94da4f820336587,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.70033586
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0558073bc9c75944c94da4f820336587, type: 3}
@@ -51235,7 +51290,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78e4badee43c5ee47b2c41a84f1c0351, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelToLoad: 
+  levelToLoad: Lv2 con Player
 --- !u!114 &1062176972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51252,7 +51307,19 @@ MonoBehaviour:
   tagID: Player
   onTriggerEnter:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1062176971}
+        m_TargetAssemblyTypeName: LoadLevelTaller, Assembly-CSharp
+        m_MethodName: LoadLevelNow
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onTriggerExit:
     m_PersistentCalls:
       m_Calls: []
@@ -51280,7 +51347,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1062176970}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -73.7, y: 3.66, z: -3.43}
+  m_LocalPosition: {x: -72.99, y: 3.66, z: 0.79}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
