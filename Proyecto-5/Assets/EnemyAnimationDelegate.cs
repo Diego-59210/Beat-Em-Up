@@ -25,7 +25,6 @@ public class EnemyAnimationDelegate : MonoBehaviour
         if (gameObject.CompareTag(Tags.ENEMY_TAG))
         {
             enemyMovementScript = GetComponentInParent<EnemyMovement>();
-            collider = GetComponentInParent<CapsuleCollider>();
 
         }
         cameraShake = GameObject.FindWithTag(Tags.MAIN_CAMERA_TAG).GetComponent<CameraShake>();

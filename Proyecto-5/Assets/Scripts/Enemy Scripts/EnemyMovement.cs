@@ -1,9 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class EnemyMovement : MonoBehaviour
 {
+    public TextMeshProUGUI textUI;
+
     private CharacterAnimation enemyAnim;
 
     private Rigidbody enemyBody;
@@ -73,12 +76,16 @@ public class EnemyMovement : MonoBehaviour
         }
         else if (Vector3.Distance(transform.position, playerTarget.position) <= attackDistance)
         {
+            
             enemyBody.velocity = Vector3.zero;
             enemyAnim.Walk(false);
 
             followPlayer = false;
             attackPlayer = true;
 
+        }
+        if(textUI != null) {
+            textUI.text = "" + Vector3.Distance(transform.position, playerTarget.position);
         }
     }
     void Attack()
